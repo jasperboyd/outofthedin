@@ -21,6 +21,7 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    background: #71BFFF;
 }
 
 /*
@@ -92,10 +93,106 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+header, 
+article, 
+footer { 
+	min-width: 500px; 
+	max-width: 1000px; 
+	width: 80%;
+	margin: 0 auto; 
+} 
+   
+header { 
+	background: #FF7077;
+	padding-top: 10px; 
+} 
 
+nav a { 
+	display: inline-block;
+	margin-right: 10px;
+	letter-spacing: 2px; 
+	padding: 10px;
+} 
 
+nav .selected { 
+	color: #FF7077;
+	background: white;
+	-webkit-border-top-right-radius: 20px;
+	-moz-border-radius-topright: 20px;
+	border-top-right-radius: 20px;
+} 
 
+article { 
+	background: white;
+}
 
+footer a { 
+	font-family: 'Economica', sans-serif; 
+} 
+
+footer h6 { 
+	letter-spacing: 1px solid #FF7077;
+} 
+
+.center button
+{ 
+	width: 20%;
+} 
+
+button { 
+	background: white;
+	border: 2px solid #FF7077;
+} 
+
+button:hover { 
+	background: #FF7077; 
+	color: white; 
+	border: 2px solid #BFFF71;
+} 
+
+#title { 
+	font-size: 3em;
+	color: white; 
+	letter-spacing: 5px; 
+	text-shadow: 2px 2px 2px black; 
+	padding-left: 10px;
+} 
+
+.text
+{
+	padding: 20px;
+} 
+
+.buttons
+{
+	padding: 20px;
+} 
+
+h1, 
+h2, 
+h3, 
+h4,
+h5, 
+h6 { 
+	font-family: 'Economica', sans-serif; 
+} 
+
+a, 
+p, 
+label, 
+button { 
+	font-family: 'Merriweather Sans', sans-serif; 
+	color: #FF7077;
+} 
+
+a { 
+	text-decoration: none; 
+	color: white; 
+} 
+
+a:hover { 
+	color: #BFFF71;
+}
 
 
 
