@@ -132,6 +132,12 @@ footer h6 {
 	letter-spacing: 1px solid #FF7077;
 } 
 
+#extrainfo 
+{ 
+	background: white;
+	padding: 10px;
+} 
+
 .center button
 { 
 	width: 20%;
@@ -177,6 +183,11 @@ button:hover {
 	padding: 20px;
 } 
 
+.tiny
+{ 
+	font-size: .5em;
+} 
+
 .list
 { 
 	padding-left: 20px;
@@ -186,6 +197,11 @@ button:hover {
 .buttons
 {
 	padding: 20px;
+} 
+
+.initblank 
+{ 
+	display: none;
 } 
 
 h1, 
