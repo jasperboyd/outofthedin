@@ -146,8 +146,10 @@ footer h6 {
 button { 
 	background: white;
 	border: 2px solid #FF7077;
+	margin-right: 5px;
 } 
 
+.button_sel,
 button:hover { 
 	background: #FF7077; 
 	color: white; 
@@ -161,6 +163,14 @@ button:hover {
 	text-shadow: 2px 2px 2px black; 
 	padding-left: 10px;
 } 
+
+
+#socialmedia { 
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px; 
+}
 
 #submit ul
 { 
@@ -182,6 +192,11 @@ button:hover {
 {
 	padding: 20px;
 } 
+
+.big
+{
+	font-size: 1.25em;
+}
 
 .tiny
 { 
