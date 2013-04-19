@@ -98,7 +98,7 @@ article,
 footer { 
 	min-width: 500px; 
 	max-width: 1000px; 
-	width: 80%;
+	width: 60%;
 	margin: 0 auto; 
 } 
    
@@ -112,14 +112,12 @@ nav a {
 	margin-right: 10px;
 	letter-spacing: 2px; 
 	padding: 10px;
+	color: white; 
 } 
 
 nav .selected { 
 	color: #FF7077;
 	background: white;
-	-webkit-border-top-right-radius: 20px;
-	-moz-border-radius-topright: 20px;
-	border-top-right-radius: 20px;
 } 
 
 article { 
@@ -158,9 +156,31 @@ button:hover {
 	padding-left: 10px;
 } 
 
+#submit ul
+{ 
+	list-style-type: none; 
+	padding: 10px;
+} 
+
+#submit ul li 
+{ 
+	color: white;
+} 
+
+#submit ul ul 
+{ 
+	padding: 0;
+} 
+
 .text
 {
 	padding: 20px;
+} 
+
+.list
+{ 
+	padding-left: 20px;
+	background: #FF7077;
 } 
 
 .buttons
@@ -177,35 +197,42 @@ h6 {
 	font-family: 'Economica', sans-serif; 
 } 
 
+h2
+{
+	font-size: 2.5em;
+}
+
+h2,
+a
+{ 
+	text-shadow: 1px 1px 1px #FF7077; 
+}
+
+h4,
+h3,
+h5
+{
+	color: #FF7077;
+}
+
+li,
 a, 
 p, 
 label, 
 button { 
 	font-family: 'Merriweather Sans', sans-serif; 
 	color: #FF7077;
+	letter-spacing: 1px;
 } 
 
 a { 
 	text-decoration: none; 
-	color: white; 
+	color: black; 
 } 
 
 a:hover { 
 	color: #BFFF71;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
